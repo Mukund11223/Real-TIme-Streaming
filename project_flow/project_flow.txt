@@ -5,14 +5,4 @@
 5. After the completion put the .py file in the VM using gcloud scp command 
 6. run this command to execute the spark submit command and resources get allocated
     "spark-submit --master yarn --deploy-mode cluster --driver-memory 2g --num-executors 2 --executor-memory 2g order_data_analysis_pySpark.py"
-7.
 
-
-
-
-
-## knowledge 
-1.spark skips the redundant operations 
-2.some of the operations in spark ui could be internal as well while seeing the stages 
-3.Try to understand spark web ui (not asked in the interviews) can be used in the indetifying the things in
-    spark
